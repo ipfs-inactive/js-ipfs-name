@@ -1,6 +1,8 @@
 /* eslint-env mocha */
 'use strict'
 
-describe('publish', function () {
+describe('resolve', function () {
+  it('tests something', function () {
 
+  })
 })
