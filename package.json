@@ -1,0 +1,37 @@
+{
+  "name": "ipfs-name",
+  "version": "0.0.0",
+  "description": "Publishing and resolving IPNS records",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "aegir test -f test/browser.js",
+    "test:node": "aegir test -t node",
+    "test:browser": "aegir test -t browser -f test/browser.js",
+    "test:webworker": "aegir test -t webworker -f test/browser.js",
+    "build": "aegir build",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-minor": "aegir release --type minor",
+    "release-major": "aegir release --type major",
+    "coverage": "aegir coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipfs/js-ipfs-name.git"
+  },
+  "author": "Alex Potsides <alex@achingbrain.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipfs/js-ipfs-name/issues"
+  },
+  "homepage": "https://github.com/ipfs/js-ipfs-name#readme",
+  "devDependencies": {
+    "aegir": "^15.0.0",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1"
+  },
+  "dependencies": {
+    "callbackify": "^1.1.0",
+    "ipns": "~0.1.1"
+  }
+}
