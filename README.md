@@ -1,3 +1,9 @@
+⛔️ DEPRECATED
+
+This repo was created to hold code split out from the main js-ipfs repo but that split never occured so this repo is not necessary.
+
+_This library will not be maintained._
+
 # ipfs-name JavaScript Implementation
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
